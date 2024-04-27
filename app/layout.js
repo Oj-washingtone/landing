@@ -1,6 +1,21 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+// res import
+import "@/res/css/bootstrap.min.css";
+import "@/res/css/animate.min.css";
+import "@/res/css/magnific-popup.css";
+import "@/res/fontawesome/css/all.min.css";
+import "@/res/font-flaticon/flaticon.css";
+import "@/res/css/dripicons.css";
+import "@/res/css/slick.css";
+import "@/res/css/meanmenu.css";
+import "@/res/css/default.css";
+import "@/res/css/style.css";
+import "@/res/css/responsive.css";
+
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -11,7 +26,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body classNameNameName={inter.classNameNameName}>{children}</body>
     </html>
   );
 }
