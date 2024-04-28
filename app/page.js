@@ -2,6 +2,8 @@ import Image from "next/image";
 import styles from "./main.css";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
+import BlogSection from "@/components/blog/BlogSection";
+import FAQs from "@/components/faqs/faqs";
 
 export default function Home() {
   return (
@@ -17,7 +19,7 @@ export default function Home() {
                 <div className="col-sm-6 intro-wrapper">
                   <div className="welcome">Welcome</div>
                   <h1 className="poppins-extrabold intro-text">
-                    Securing kids future, one bus at a time.
+                    Securing the future, one step at a time.
                   </h1>
 
                   <div className="actions">
@@ -42,7 +44,7 @@ export default function Home() {
           </div>
           {/* <!-- End Intro section -->
     <!-- About the project --> */}
-          <div className="row about-wrapper">
+          <div className="row about-wrapper" id="about">
             <div className="col-sm-6">
               <div className="main-image-wrapper">
                 <Image
@@ -59,22 +61,22 @@ export default function Home() {
                 <h4 className="poppins-extrabold section-title">About</h4>
                 <h1 className="poppins-extrabold about-intro">What's Our</h1>
                 <h1 className="poppins-extrabold about-intro">
-                  Product's Story
+                  Empowering Story
                 </h1>
               </div>
 
               <p className="normap-text poppins-regular">
-                We are a dedicated team committed to ensuring the safety of our
-                children. Our journey began with a simple idea - to secure
-                school buses and provide peace of mind for parents and schools.
-                Our innovative solution monitors and secures school buses,
-                ensuring that every child's journey to and from school is safe.
+                We provide social and economic empowerment services to people at
+                the local community. We are a non-profit organization whose
+                activities are based primarily on sponsorship, donor funding and
+                volunteer efforts. Ours is to build dreams and create
+                possibility in every impossibility.
               </p>
             </div>
           </div>
           {/* <!-- End about the project --> */}
 
-          <div className="row features-section">
+          <div className="row features-section" id="activities">
             <div className="section-header">
               <h4 className="poppins-extrabold section-title">Activities</h4>
               <h3 className="poppins-extrabold about-intro">What we do</h3>
@@ -87,12 +89,11 @@ export default function Home() {
                       <img src="../assets/images/site/feature-1.png" alt="" />
                     </div>
                     <h4 className="poppins-bold feature-title">
-                      Real-time tracking
+                      Poverty Eradication
                     </h4>
                     <p className="poppins-regular feature-text">
-                      Our solution provides real-time tracking of school buses,
-                      allowing parents and schools to monitor the location of
-                      the bus at all times.
+                      Improve the quality of life and poverty alleviation within
+                      the Community through direct assistance
                     </p>
                   </div>
                 </div>
@@ -101,12 +102,10 @@ export default function Home() {
                     <div className="feature-icon">
                       <img src="../assets/images/site/feature-2.png" alt="" />
                     </div>
-                    <h4 className="poppins-bold feature-title">
-                      Geofencing alerts
-                    </h4>
+                    <h4 className="poppins-bold feature-title">Health Care</h4>
                     <p className="poppins-regular feature-text">
-                      Our solution sends geofencing alerts to parents and
-                      schools when the bus enters or exits a predefined area.
+                      Increase the communities access to basic and primary
+                      health care services and health education programs
                     </p>
                   </div>
                 </div>
@@ -116,13 +115,10 @@ export default function Home() {
                     <div className="feature-icon">
                       <img src="../assets/images/site/feature-3.png" alt="" />
                     </div>
-                    <h4 className="poppins-bold feature-title">
-                      Emergency alerts
-                    </h4>
+                    <h4 className="poppins-bold feature-title">PwD</h4>
                     <p className="poppins-regular feature-text">
-                      Our solution sends emergency alerts to parents and schools
-                      in case of an emergency, ensuring that help is always at
-                      hand.
+                      Promote the social and economic welfare of persons with
+                      disability (PWD)
                     </p>
                   </div>
                 </div>
@@ -132,12 +128,11 @@ export default function Home() {
                     <div className="feature-icon">
                       <img src="../assets/images/site/feature-4.png" alt="" />
                     </div>
-                    <h4 className="poppins-bold feature-title">
-                      Driver behavior
-                    </h4>
+                    <h4 className="poppins-bold feature-title">Empowerment</h4>
                     <p className="poppins-regular feature-text">
-                      Our solution monitors driver behavior, ensuring that
-                      drivers adhere to safe driving practices at all times.
+                      Create opportunities for youth empowerment, leadership
+                      development, and civic engagement through youth clubs,
+                      mentorship programs, and youth-led initiatives.
                     </p>
                   </div>
                 </div>
@@ -147,11 +142,11 @@ export default function Home() {
                     <div className="feature-icon">
                       <img src="../assets/images/site/feature-5.png" alt="" />
                     </div>
-                    <h4 className="poppins-bold feature-title">Parent app</h4>
+                    <h4 className="poppins-bold feature-title">Stability</h4>
                     <p className="poppins-regular feature-text">
-                      Our solution comes with a parent app that allows parents
-                      to track the location of the bus and receive alerts on
-                      their smartphones.
+                      Promote peace, reconciliation, and conflict resolution
+                      within the community through dialogue, mediation, and
+                      peacebuilding initiatives.
                     </p>
                   </div>
                 </div>
@@ -161,11 +156,11 @@ export default function Home() {
                     <div className="feature-icon">
                       <img src="../assets/images/site/feature-6.png" alt="" />
                     </div>
-                    <h4 className="poppins-bold feature-title">School app</h4>
+                    <h4 className="poppins-bold feature-title">
+                      Gender Equality
+                    </h4>
                     <p className="poppins-regular feature-text">
-                      Our solution comes with a school app that allows schools
-                      to monitor the location of the bus and receive alerts on
-                      their smartphones.
+                      Reduce Gender inequality in the community
                     </p>
                   </div>
                 </div>
@@ -341,95 +336,7 @@ export default function Home() {
             <div className="row team-row">
               <div className="col-sm-10">
                 <div className="row team-row">
-                  <div className="col-sm-3">
-                    <div className="member-card">
-                      <div className="member-image">
-                        <Image
-                          src="/img/team/AlphonceAriwi.jpg"
-                          alt="Picture of the author"
-                          width={400}
-                          height={400}
-                        />
-                      </div>
-                      <div className="member-info">
-                        <h5 className="poppins-bold">Alphonce Ariwi</h5>
-                        <h6 className="poppins-regular role">Role</h6>
-                      </div>
-                      {/* <div className="member-socials">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#">facebook</a>
-                    <a href="#">facebook</a>
-                  </div> */}
-                    </div>
-                  </div>
-
-                  <div className="col-sm-3">
-                    <div className="member-card">
-                      <div className="member-image">
-                        <Image
-                          src="/img/team/HillaryOchieng .jpg"
-                          alt="Picture of the author"
-                          width={400}
-                          height={400}
-                        />
-                      </div>
-                      <div className="member-info">
-                        <h5 className="poppins-bold">Hillary Ochieng</h5>
-                        <h6 className="poppins-regular role">Role</h6>
-                      </div>
-                      {/* <div className="member-socials">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#">facebook</a>
-                    <a href="#">facebook</a>
-                  </div> */}
-                    </div>
-                  </div>
-
-                  <div className="col-sm-3">
-                    <div className="member-card">
-                      <div className="member-image">
-                        <Image
-                          src="/img/team/JaneAchieng.jpg"
-                          alt="Picture of the author"
-                          width={400}
-                          height={400}
-                        />
-                      </div>
-                      <div className="member-info">
-                        <h5 className="poppins-bold">Jane Achieng</h5>
-                        <h6 className="poppins-regular role">Role</h6>
-                      </div>
-                      {/* <div className="member-socials">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#">facebook</a>
-                    <a href="#">facebook</a>
-                  </div> */}
-                    </div>
-                  </div>
-
-                  <div className="col-sm-3">
-                    <div className="member-card">
-                      <div className="member-image">
-                        <Image
-                          src="/img/team/NaomiAdhiambo.jpg"
-                          alt="Picture of the author"
-                          width={400}
-                          height={400}
-                        />
-                      </div>
-                      <div className="member-info">
-                        <h5 className="poppins-bold">Naomi Adhiambo</h5>
-                        <h6 className="poppins-regular role">Role</h6>
-                      </div>
-                      {/* <div className="member-socials">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#">facebook</a>
-                    <a href="#">facebook</a>
-                  </div> */}
-                    </div>
-                  </div>
-
-                  <div className="col-sm-3">
+                  <div className="col-sm-4">
                     <div className="member-card">
                       <div className="member-image">
                         <Image
@@ -441,13 +348,81 @@ export default function Home() {
                       </div>
                       <div className="member-info">
                         <h5 className="poppins-bold">Nathaniel Odongo</h5>
-                        <h6 className="poppins-regular role">Role</h6>
+                        <h6 className="poppins-regular role">Founder</h6>
                       </div>
-                      {/* <div className="member-socials">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#">facebook</a>
-                    <a href="#">facebook</a>
-                  </div> */}
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="member-card">
+                      <div className="member-image">
+                        <Image
+                          src="/img/team/HillaryOchieng .jpg"
+                          alt="Picture of the author"
+                          width={400}
+                          height={400}
+                        />
+                      </div>
+                      <div className="member-info">
+                        <h5 className="poppins-bold">Hillary Ochieng</h5>
+                        <h6 className="poppins-regular role">
+                          Operations Director
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="member-card">
+                      <div className="member-image">
+                        <Image
+                          src="/img/team/JaneAchieng.jpg"
+                          alt="Picture of the author"
+                          width={400}
+                          height={400}
+                        />
+                      </div>
+                      <div className="member-info">
+                        <h5 className="poppins-bold">Jane Achieng</h5>
+                        <h6 className="poppins-regular role">
+                          Finance Manager
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="member-card">
+                      <div className="member-image">
+                        <Image
+                          src="/img/team/AlphonceAriwi.jpg"
+                          alt="Picture of the author"
+                          width={400}
+                          height={400}
+                        />
+                      </div>
+                      <div className="member-info">
+                        <h5 className="poppins-bold">Alphonce Ariwi</h5>
+                        <h6 className="poppins-regular role">
+                          Chief coordinator{" "}
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-sm-4">
+                    <div className="member-card">
+                      <div className="member-image">
+                        <Image
+                          src="/img/team/NaomiAdhiambo.jpg"
+                          alt="Picture of the author"
+                          width={400}
+                          height={400}
+                        />
+                      </div>
+                      <div className="member-info">
+                        <h5 className="poppins-bold">Naomi Adhiambo</h5>
+                        <h6 className="poppins-regular role">
+                          Administrative assistant
+                        </h6>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -457,67 +432,13 @@ export default function Home() {
         </div>
         <div className="call-to-action">
           <h1 className="call-to-action-text poppins-extrabold">
-            We're crafting a pathway <br/> for prosperity.
+            We're crafting a pathway <br /> for prosperity.
           </h1>
         </div>
         <div className="container">
-          <div className="row contactus-section">
-            <div className="section-header">
-              <h4 className="poppins-extrabold section-title">Contact</h4>
-              <h3 className="poppins-extrabold about-intro">Talk to us</h3>
-            </div>
+          <BlogSection />
 
-            <div className="col-sm-12 conct-wrapper">
-              <div className="row">
-                <div className="col-sm-6">Location of the company</div>
-                <div className="col-sm-6">
-                  <form className="contact-form">
-                    <div className="row form-row">
-                      <div className="col-sm-6">
-                        <input
-                          type="text"
-                          className="form-control"
-                          placeholder="First name"
-                        />
-                      </div>
-                      <div className="col-sm-6">
-                        <input
-                          type="text"
-                          className="form-control"
-                          placeholder="Last name"
-                        />
-                      </div>
-                    </div>
-                    <div className="row form-row">
-                      <div className="col-sm-12">
-                        <input
-                          type="text"
-                          className="form-control"
-                          placeholder="Email"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="row form-row">
-                      <div className="col-sm-12">
-                        <textarea
-                          className="form-control"
-                          id="label"
-                          rows="3"
-                          placeholder="Message"
-                        ></textarea>
-                      </div>
-                    </div>
-                    <div className="row form-row">
-                      <div className="col-sm-12">
-                        <button className="my-btn custom-btn-fill">Send</button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
+          <FAQs />
         </div>
         {/* <!-- <app-contact-page /> --> */}
       </main>

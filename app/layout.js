@@ -1,5 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import "boxicons/css/boxicons.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 
 // res import
 import "@/res/css/bootstrap.min.css";
