@@ -177,7 +177,7 @@ export default function Home() {
         <div className="container">
           <FAQs />
 
-          <div className="row contactus-section">
+          <div className="row contactus-section" id="contactus">
             <div className="section-header">
               <h4 className="poppins-extrabold section-title">Contact</h4>
               <h3 className="poppins-extrabold about-intro">Talk to us</h3>

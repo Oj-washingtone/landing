@@ -109,7 +109,11 @@ export default function Header() {
                   FAQs
                 </Link>
               </li>
-              <li className="custom-btn">Get Intouch</li>
+              <li>
+                <Link href="#contactus" onClick={closeMenu}>
+                  FAQs
+                </Link>
+              </li>
             </ul>
           </div>
         )}
