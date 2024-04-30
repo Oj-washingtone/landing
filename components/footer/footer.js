@@ -20,26 +20,36 @@ export default function Footer() {
                 school journeys.
               </p>
             </div>
-            <div className="col-sm-3 footer-section">
+            <div className="col-sm-3 footer-section links-section">
               <div>
                 <h3 className="poppins-bold footer-section-title">Links</h3>
               </div>
               <div className="footer-links">
-                <Link href="/ai-assistant">
-                  <p className="poppins-regular footer-link-item">
-                    <i className="bi bi-chevron-double-right"></i> About
-                  </p>
-                </Link>
+                <ul>
+                  <li>
+                    <Link href="/#about">
+                      <p className="link-item">
+                        <i className="bi bi-chevron-double-right"></i> About
+                      </p>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/#features">
+                      <p className="link-item">
+                        <i className="bi bi-chevron-double-right"></i> How It
+                        Works
+                      </p>
+                    </Link>
+                  </li>
 
-                <Link href="/ai-assistant">
-                  <i className="bi bi-chevron-double-right"></i> Activities
-                </Link>
-                <Link href="/ai-assistant">
-                  <i className="bi bi-chevron-double-right"></i> FAQ
-                </Link>
-                <Link href="/ai-assistant">
-                  <i className="bi bi-chevron-double-right"></i> Blog
-                </Link>
+                  <li>
+                    <Link href="/ai-assistant">
+                      <p className="link-item">
+                        <i className="bi bi-chevron-double-right"></i> FAQ
+                      </p>
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="col-sm-3">
@@ -107,6 +117,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-    //   <!-- footer-end -->
   );
 }

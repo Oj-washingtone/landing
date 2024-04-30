@@ -69,10 +69,7 @@ export default function Header() {
             <li>
               <Link href="#faq">FAQs</Link>
             </li>
-            {/* <li>
-              <Link href="/blog">Blog</Link>
-            </li> */}
-            <li className="custom-btn">Get Intouch</li>
+            <li className="custom-btn">Get Onboard</li>
           </ul>
         </div>
 
@@ -101,7 +98,7 @@ export default function Header() {
               </li>
               <li>
                 <Link href="/#features" onClick={closeMenu}>
-                  Features
+                  How it Works 
                 </Link>
               </li>
               <li>
@@ -111,7 +108,7 @@ export default function Header() {
               </li>
               <li>
                 <Link href="#contactus" onClick={closeMenu}>
-                  FAQs
+                  Get Onboard
                 </Link>
               </li>
             </ul>

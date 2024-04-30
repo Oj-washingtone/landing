@@ -84,8 +84,8 @@ export default function Home() {
 
           <div className="row features-section" id="features">
             <div className="section-header">
-              <h4 className="poppins-extrabold section-title">Features</h4>
-              <h3 className="poppins-extrabold about-intro">Why Choose Us</h3>
+              <h4 className="poppins-extrabold section-title">Our Approach</h4>
+              <h3 className="poppins-extrabold about-intro">How It Works.</h3>
             </div>
             <div className="col-sm-12">
               <div className="row">
@@ -93,12 +93,11 @@ export default function Home() {
                   <div className="feature-wrapper">
                     <div className="feature-icon"></div>
                     <h4 className="poppins-bold feature-title">
-                      Real-time tracking
+                      1.
                     </h4>
                     <p className="poppins-regular feature-text">
-                      Our solution provides real-time tracking of school buses,
-                      allowing parents and schools to monitor the location of
-                      the bus at all times.
+                      NFC Reader Installation: An NFC reader is installed at the
+                      door of each school bus.
                     </p>
                   </div>
                 </div>
@@ -106,11 +105,11 @@ export default function Home() {
                   <div className="feature-wrapper">
                     <div className="feature-icon"></div>
                     <h4 className="poppins-bold feature-title">
-                      Driver behavior
+                      2.
                     </h4>
                     <p className="poppins-regular feature-text">
-                      Our solution monitors driver behavior, ensuring that
-                      drivers adhere to safe driving practices at all times.
+                      Student Check-In: Before boarding the bus, students tap
+                      their digital ID card on the NFC reader.
                     </p>
                   </div>
                 </div>
@@ -118,11 +117,11 @@ export default function Home() {
                 <div className="col-sm-4">
                   <div className="feature-wrapper">
                     <div className="feature-icon"></div>
-                    <h4 className="poppins-bold feature-title">Notification</h4>
+                    <h4 className="poppins-bold feature-title">3.</h4>
                     <p className="poppins-regular feature-text">
-                      Parents receive SMS notifications every time their child
-                      boards or exits the school bus, both in the morning and
-                      afternoon.
+                      Parents receive a text notification containing,
+                      Bus registration number Driver's name and contact details
+                      Departure time Live tracking link
                     </p>
                   </div>
                 </div>
@@ -131,12 +130,12 @@ export default function Home() {
                   <div className="feature-wrapper">
                     <div className="feature-icon"></div>
                     <h4 className="poppins-bold feature-title">
-                      Emergency alerts
+                      4.
                     </h4>
                     <p className="poppins-regular feature-text">
-                      Our solution sends emergency alerts to parents and schools
-                      in case of an emergency, ensuring that help is always at
-                      hand.
+                      Live Tracking Link that allows parents to track the
+                      bus in real-time View bus speed and direction The monitor
+                      stops and route progress Receive overspeed alerts
                     </p>
                   </div>
                 </div>
@@ -144,23 +143,13 @@ export default function Home() {
                 <div className="col-sm-4">
                   <div className="feature-wrapper">
                     <div className="feature-icon"></div>
-                    <h4 className="poppins-bold feature-title">School App</h4>
+                    <h4 className="poppins-bold feature-title">
+                      5.
+                    </h4>
                     <p className="poppins-regular feature-text">
-                      Our solution comes with a school app that allows schools
-                      to monitor the location of the bus and receive alerts on
-                      their smartphones.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="col-sm-4">
-                  <div className="feature-wrapper">
-                    <div className="feature-icon"></div>
-                    <h4 className="poppins-bold feature-title">Parent app</h4>
-                    <p className="poppins-regular feature-text">
-                      Our solution comes with a parent app that allows parents
-                      to track the location of the bus and receive alerts on
-                      their smartphones.
+                      Live Video Feed: Our system includes a camera inside the
+                      bus, providing: Real-time video streaming Ensuring student
+                      safety and behavior monitoring
                     </p>
                   </div>
                 </div>
@@ -180,7 +169,7 @@ export default function Home() {
           <div className="row contactus-section" id="contactus">
             <div className="section-header">
               <h4 className="poppins-extrabold section-title">Contact</h4>
-              <h3 className="poppins-extrabold about-intro">Talk to us</h3>
+              <h3 className="poppins-extrabold about-intro">Talk to us.</h3>
             </div>
 
             <div className="col-sm-12 conct-wrapper">
