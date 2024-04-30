@@ -68,3 +68,9 @@
 .footer-link-item {
     display: var(--primary-color);
 }
+
+.align-items-center {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}

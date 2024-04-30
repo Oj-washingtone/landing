@@ -11,13 +11,13 @@ export default function Footer() {
           <div className="row">
             <div className="col-sm-3">
               <div>
-                <h3 className="poppins-bold logo">Logo</h3>
+                <h3 className="poppins-bold footer-logo">Logo</h3>
               </div>
               <p>
-                We empower local communities through social and economic
-                services. As a non-profit, we rely on sponsorships, donations,
-                and volunteers to transform dreams into possibilities, even in
-                the face of challenges
+                We're dedicated to child safety with innovative products. Our
+                mission started with a simple idea - securing school buses for
+                peace of mind. We monitor and secure school buses, ensuring safe
+                school journeys.
               </p>
             </div>
             <div className="col-sm-3 footer-section">
@@ -27,84 +27,53 @@ export default function Footer() {
               <div className="footer-links">
                 <Link href="/ai-assistant">
                   <p className="poppins-regular footer-link-item">
-                    <i class="bi bi-chevron-double-right"></i> About
+                    <i className="bi bi-chevron-double-right"></i> About
                   </p>
                 </Link>
 
                 <Link href="/ai-assistant">
-                  <i class="bi bi-chevron-double-right"></i> Activities
+                  <i className="bi bi-chevron-double-right"></i> Activities
                 </Link>
                 <Link href="/ai-assistant">
-                  <i class="bi bi-chevron-double-right"></i> FAQ
+                  <i className="bi bi-chevron-double-right"></i> FAQ
                 </Link>
                 <Link href="/ai-assistant">
-                  <i class="bi bi-chevron-double-right"></i> Blog
+                  <i className="bi bi-chevron-double-right"></i> Blog
                 </Link>
               </div>
             </div>
             <div className="col-sm-3">
               <h3 className="poppins-bold footer-section-title">Get intouch</h3>
               <div className="footer-contact">
-                <i class="bi bi-geo-alt"></i>
-                <p>122, Street, mmVSB</p>
+                <i className="bi bi-geo-alt"></i>
+                <p>Solanite Godowns, Mombasa RD, Nairobi, Kenya</p>
               </div>
               <div className="footer-contact">
-                <i class="bx bxs-envelope"></i>
-                <p>info@example.com</p>
+                <i className="bx bxs-envelope"></i>
+                <p>info@numeraliot.com</p>
               </div>
 
               <div className="footer-contact">
-                <i class="bx bxs-phone"></i>
-                <p>+2547 000 000</p>
+                <i className="bx bxs-phone"></i>
+                <p>+254 111 014 700</p>
               </div>
             </div>
-            <div className="col-sm-3">
-              <h3 className="poppins-bold footer-section-title">Gallery</h3>
+            <div className="col-sm-3 footer-gal-wrapper">
+              <h3 className="poppins-bold footer-section-title">Newsletter</h3>
               <div className="row">
-                <div className="col-sm-6">
-                  <div className="footer-gallery-image-wrapper">
-                    <div className="overlay"></div>
-                    <Image
-                      src="/img/gallery/3.JPG"
-                      alt="Picture of the author"
-                      width={400}
-                      height={400}
+                <p>Subscribe to our newsletter to get the latest updates</p>
+                <form>
+                  <div className="form-group">
+                    <input
+                      type="email"
+                      className="form-control"
+                      placeholder="Enter your email"
                     />
                   </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="footer-gallery-image-wrapper">
-                    <div className="overlay"></div>
-                    <Image
-                      src="/img/gallery/4.JPG"
-                      alt="Picture of the author"
-                      width={400}
-                      height={400}
-                    />
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="footer-gallery-image-wrapper">
-                    <div className="overlay"></div>
-                    <Image
-                      src="/img/gallery/5.JPG"
-                      alt="Picture of the author"
-                      width={400}
-                      height={400}
-                    />
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="footer-gallery-image-wrapper">
-                    <div className="overlay"></div>
-                    <Image
-                      src="/img/gallery/6.JPG"
-                      alt="Picture of the author"
-                      width={400}
-                      height={400}
-                    />
-                  </div>
-                </div>
+                  <button type="submit" className="custom-btn">
+                    Subscribe
+                  </button>
+                </form>
               </div>
             </div>
           </div>
@@ -112,21 +81,13 @@ export default function Footer() {
       </div>
       <div className="copyright-wrap">
         <div className="container">
-          <div className="row align-items-center">
+          <div className="row  foter-copy-socials-wrapper">
             <div className="col-lg-6">
-              Copyright © 2024 HTCO All rights reserved.
+              Copyright © 2024 Numeral IoT All rights reserved.
             </div>
-            <div className="col-lg-6 text-right text-xl-right">
+            <div className="col-lg-3"></div>
+            <div className="col-lg-3 text-right text-xl-right">
               <ul>
-                <li>
-                  <a href="#">Privercy</a>
-                </li>
-                <li>
-                  <a href="#">Term &amp; Conditions</a>
-                </li>
-                <li>
-                  <a href="#">Legal</a>
-                </li>
                 <li>
                   <span className="footer-social">
                     <a href="#">

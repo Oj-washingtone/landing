@@ -108,52 +108,54 @@ export default function FAQs() {
 // Sample FAQ items
 const faqItems = [
   {
-    question: "How can I get involved with Humanity Touch?",
+    question: "How does your innovative solution ensure the safety of children on school buses?",
     answer:
-      "You can get involved by volunteering your time, making a donation, or spreading awareness about our cause.",
+      "Our innovative solution employs state-of-the-art technology to monitor and secure school buses, guaranteeing the safety of every child's journey to and from school.",
   },
   {
-    question: "What programs and services does Humanity Touch offer",
+    question: "What inspired the creation of your innovative solution?",
     answer:
-      "Humanity Touch offers a range of programs and services, including food distribution, educational support, healthcare services, and community development projects",
+      "Our journey began with a simple idea - to secure school buses and provide peace of mind for parents and schools.",
   },
   {
-    question: "How are donations used?",
+    question: "Can parents track their children's whereabouts while they're on the school bus?",
     answer:
-      "Donations are used to support our programs and services, including purchasing food and supplies, funding educational initiatives, and providing healthcare resources to those in need. We are committed to transparency and accountability in our use of funds.",
+      "Yes, parents can track their children's whereabouts in real-time using our innovative solution's tracking feature, ensuring added peace of mind.",
   },
   {
-    question: "How can I request assistance from Humanity Touch",
+    question: "Are there any additional safety features incorporated into your solution?",
     answer:
-      "If you or someone you know requires assistance, please contact us through our website or email to submit a request. Our team will review your inquiry and respond as soon as possible.",
-  },
-
-  {
-    question: "Can I donate goods or services instead of money?",
-    answer:
-      "Yes, Humanity Touch accepts in-kind donations of goods and services that align with our mission and programs",
-  },
-
-  {
-    question: "How does Humanity Touch ensure accountability and transparency?",
-    answer:
-      "Humanity Touch is committed to accountability and transparency in all aspects of our operations. We regularly publish financial reports, conduct audits, and adhere to best practices in governance and management",
-  },
-
-  {
-    question: "Who can I contact for more information? ",
-    answer:
-      "For more information, please contact our team via email address or phone number. You can also follow us on social media platforms for updates and news about our work.",
+      "Yes, our solution includes additional safety features such as emergency alerts, route optimization, and driver behavior monitoring to enhance overall safety standards.",
   },
   {
-    question: "Does Humanity Touch work with other organizations or partners?",
+    question: "How does your solution benefit schools?",
     answer:
-      "Yes, Humanity Touch collaborates with other charities, NGOs, government agencies, and corporate partners to maximize our impact and reach more people in need.",
+      "Our solution not only ensures the safety of children but also benefits schools by providing detailed insights into bus operations, optimizing routes, and enhancing overall efficiency.",
   },
-
   {
-    question: "How can I stay updated on Humanity Touch's activities and news?",
+    question: "What sets your solution apart from others in the market?",
     answer:
-      "To stay updated on Humanity Touch's activities and news, subscribe to our newsletter, follow us on social media, or visit our website regularly for updates and blog posts.",
+      "Our solution stands out due to its comprehensive approach to school bus safety, incorporating advanced technology, real-time tracking, and customizable features tailored to the needs of parents and schools.",
+  },
+  {
+    question: "Is your solution easy for schools to implement and use?",
+    answer:
+      "Yes, our solution is designed to be user-friendly and easy to implement for schools, with minimal training required for administrators and drivers.",
+  },
+  {
+    question: "Can your solution be customized to fit the specific needs of different school districts?",
+    answer:
+      "Yes, our solution is highly customizable and can be tailored to fit the specific needs and requirements of different school districts, ensuring flexibility and scalability.",
+  },
+  {
+    question: "How can schools or parents get started with your solution?",
+    answer:
+      "Schools or parents interested in implementing our solution can reach out to our team through our website or contact us directly for a consultation and demonstration of our capabilities.",
+  },
+  {
+    question: "What kind of support do you offer to schools or parents using your solution?",
+    answer:
+      "We offer comprehensive support to schools or parents using our solution, including training, technical assistance, and ongoing customer support to ensure a smooth and successful implementation.",
   },
 ];
+

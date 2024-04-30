@@ -85,4 +85,85 @@ header {
       -0.125rem -0.125rem 1rem #47ef71f3,
       0.125rem 0.125rem 1rem #d9ff5aec;
   }
+
+  .toggle-menu-btn {
+    background: transparent;
+    border: none;
+  }
+
+  .toggle-menu {
+    display: none;
+  }
+
+  .toggle-menu-btn i {
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 25px;
+  }
+
+  
+
+  @media only screen and (max-width: 600px) {
+    .menu {
+      display: none;
+    }
+
+    .toggle-menu {
+      display: block;
+    }
+
+
+    .menu-small {
+      position: fixed;
+      top: 50px;
+      right: 0;
+      width: 70%;
+      height: 100vh;
+      background-color: #fff;
+      border-bottom: 1px solid #f2f3f5;
+      padding: 20px;
+    }
+  
+    .menu-small.slide-in {
+      animation: slide-in 0.5s ease forwards;
+    }
+  
+    .menu-small.slide-out {
+      animation: slide-out 0.5s ease forwards;
+    }
+    
+  
+    .menu-small ul {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      align-items: flex-start;
+    }
+  
+    .menu-small li {
+      margin: 10px 0;
+    }
+  
+  
+    @keyframes slide-in {
+      0% {
+        transform: translateX(100%);
+      }
+  
+      100% {
+        transform: translateX(0%);
+      }
+    }
+  
+    @keyframes slide-out {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    }
+  }
+
+
   
