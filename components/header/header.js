@@ -64,12 +64,16 @@ export default function Header() {
               <Link href="#about">About</Link>
             </li>
             <li>
-              <Link href="/#features">Features</Link>
+              <Link href="/#features">How it works</Link>
             </li>
             <li>
               <Link href="#faq">FAQs</Link>
             </li>
-            <li className="custom-btn">Get Onboard</li>
+            <li className="custom-btn">
+              <Link href="#contactus">
+                <div className="git-btn-text">Get Intouch</div>
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -87,6 +91,12 @@ export default function Header() {
           <div
             className={`menu-small ${isMenuOpen ? "slide-in" : "slide-out"}`}
           >
+            <div className="close-menu-wrapper">
+              <button className="close-menu-btn" onClick={closeMenu}>
+                <i className="bi bi-x-lg"></i>
+              </button>
+            </div>
+
             <ul>
               <li>
                 <Link href="/">Home</Link>
@@ -98,7 +108,7 @@ export default function Header() {
               </li>
               <li>
                 <Link href="/#features" onClick={closeMenu}>
-                  How it Works 
+                  How it Works
                 </Link>
               </li>
               <li>

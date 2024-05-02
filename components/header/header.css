@@ -101,6 +101,10 @@ header {
     font-size: 25px;
   }
 
+  .git-btn-text {
+    color: #fff;
+  }
+
   
 
   @media only screen and (max-width: 600px) {
@@ -115,12 +119,12 @@ header {
 
     .menu-small {
       position: fixed;
-      top: 50px;
+      top: 0px;
       right: 0;
       width: 70%;
       height: 100vh;
       background-color: #fff;
-      border-bottom: 1px solid #f2f3f5;
+      border-left: 1px solid #f2f3f5;
       padding: 20px;
     }
   
@@ -142,6 +146,21 @@ header {
   
     .menu-small li {
       margin: 10px 0;
+    }
+
+    .close-menu-wrapper {
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+    }
+
+    .close-menu-btn {
+      background: transparent;
+      border: none;
+      font-size: 20px;
+      font-weight: bold;
     }
   
   
